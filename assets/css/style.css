@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 28px 23px 28px;
+
+    border-bottom: 2px solid rgba(0, 0, 0, 0.07);
+}
+
+.menuNav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 28px;
+}
+
+.product a {
+    background-color: #0A99FE;
+    text-decoration: none;
+    padding: 8px 32px;
+    margin-right: 24px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    transition: 0.3s;
+    font-size: 20px;
+}
+
+.product a:hover {
+    transition: 0.3s;
+    color: #0A99FE;
+    background-color: rgba(10, 152, 254, 0.1);
+}
+
+.contact a {
+    background-color: rgba(10, 152, 254, 0.1);
+    color: #0A99FE;
+    text-decoration: none;
+    padding: 8px 32px;
+    margin-right: 24px;
+    border-radius: 8px;
+    transition: 0.3s;
+    font-size: 20px;
+
+}
+.contact a:hover {
+    transition: 0.3s;
+    color: #FFFFFF;
+    background-color: #0A99FE;
+}
+.painting {
+    overflow-x: auto;
+}
+
+.actionFigures {
+    overflow-x: auto;
+}
+
+.painting h2 {
+    margin-top: 50px;
+    margin-left: 25px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.actionFigures h2 {
+    margin-left: 25px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.cards {
+    display: flex;
+
+}
+
+.productCard {
+    width: 207px;
+    height: 275px;
+    background-color: #F8F8F8;;
+    margin: 40px 25px 50px 23px;
+    border-radius: 8px;
+    
+}
+
+.imgCard {
+    background-color: #DADADA;
+    width: 207px;
+    height: 141px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.infoProduct {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nameItem {
+    margin: 27px 36px;
+    font-size: 20px;
+    color: #1B1B1B;
+    
+}
+
+.priceItem {
+    margin: 0px 53px 37px 53px;
+    font-size: 16px;
+    color: #868383;
+}
+
+img {
+    width: 207px;
+    height: 141px;
+}
+
+.cardsPainting {
+    overflow-x: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.cardsAction {
+    overflow-x: auto;
+    display: flex;
+    flex-direction: row;
+}
